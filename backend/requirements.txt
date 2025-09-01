@@ -1,0 +1,42 @@
+# FastAPI и веб-сервер
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# База данных
+sqlalchemy==2.0.23
+alembic==1.12.1
+
+# Валидация данных
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Работа с файлами
+python-multipart==0.0.6
+aiofiles==23.2.0
+
+# AI и ML (локальные модели)
+torch>=2.0.0
+transformers>=4.36.0
+sentence-transformers>=2.2.2
+accelerate>=0.25.0
+
+# Векторный поиск
+faiss-cpu>=1.7.4
+
+# Обработка документов
+PyMuPDF>=1.23.0  # fitz для PDF
+python-pptx>=0.6.22
+python-docx>=1.1.0
+
+# OCR для работы с экраном
+pytesseract>=0.3.10
+Pillow>=10.1.0
+
+# Графический интерфейс
+PyQt6>=6.6.0
+# или альтернативно: PyQt5>=5.15.9
+
+# Утилиты
+python-dotenv==1.0.0
+httpx==0.25.2
+loguru==0.7.2
